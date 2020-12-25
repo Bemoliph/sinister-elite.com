@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    color: #F3F3F3;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+a,
+a:focus,
+a:hover {
+    color: #FF9900;
+}
+
+.scene {
+    background-image: url("img/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 16px 32px black inset;
+}
+
+.footer {
+    opacity: 50%;
+}
